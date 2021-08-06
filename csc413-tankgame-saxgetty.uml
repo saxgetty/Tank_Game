@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Main</OriginalElement>
+  <nodes>
+    <node x="0.0" y="1827.0">Main.GameModel.NonStationary.Tank.TankControl</node>
+    <node x="1426.0" y="1931.0">Main.GameModel.UserInfo.HealthBar</node>
+    <node x="1247.0" y="282.0">Main.GameModel.NonStationary.NonStationary</node>
+    <node x="1837.361111111111" y="0.0">Main.tankrotationexample.TRE</node>
+    <node x="1052.0" y="1638.5">Main.GameModel.Stationary.PowerUp.DamageUp</node>
+    <node x="807.0" y="1638.5">Main.GameModel.Stationary.PowerUp.SpeedUp</node>
+    <node x="571.0" y="1827.0">Main.GameModel.Menus.EndGamePanel</node>
+    <node x="0.0" y="2126.0">Main.GameModel.Resource</node>
+    <node x="165.25" y="1004.5">Main.GameModel.Stationary.Wall.Wall</node>
+    <node x="512.4027777777777" y="337.5">Main.GameModel.Stationary.Stationary</node>
+    <node x="1111.0" y="1931.0">Main.GameModel.UserInfo.TotalLives</node>
+    <node x="1766.0" y="1827.0">Main.GameModel.Stationary.Floor</node>
+    <node x="793.3611111111111" y="959.5">Main.GameModel.Stationary.PowerUp.PowerUp</node>
+    <node x="672.0" y="2126.0">Main.Loader.MapLoader</node>
+    <node x="1329.361111111111" y="971.0">Main.GameModel.NonStationary.Tank.Bullet</node>
+    <node x="1039.361111111111" y="497.0">Main.GameModel.NonStationary.Tank.Tank</node>
+    <node x="841.0" y="1827.0">Main.GameModel.Menus.StartMenuPanel</node>
+    <node x="1612.361111111111" y="0.0">Main.Launcher</node>
+    <node x="0.0" y="1616.0">Main.GameModel.Stationary.Wall.BreakableWall</node>
+    <node x="1268.5" y="1827.0">Main.GameModel.UserInfo.UserInfo</node>
+    <node x="312.0" y="2126.0">Main.GameModel.Collidable</node>
+    <node x="295.0" y="1827.0">Main.GameConstants</node>
+    <node x="272.0" y="1638.5">Main.GameModel.Stationary.Wall.UnbreakableWall</node>
+    <node x="750.0277777777777" y="0.0">Main.GameModel.GameObject</node>
+    <node x="559.0" y="1638.5">Main.GameModel.Stationary.PowerUp.HealthUp</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Main.GameModel.Stationary.Wall.Wall" target="Main.GameModel.Stationary.Stationary">
+      <point x="0.0" y="-27.0" />
+      <point x="265.75" y="472.0" />
+      <point x="544.4027777777777" y="472.0" />
+      <point x="-32.0" y="27.0" />
+    </edge>
+    <edge source="Main.GameModel.Stationary.PowerUp.DamageUp" target="Main.GameModel.Stationary.PowerUp.PowerUp">
+      <point x="0.0" y="-60.5" />
+      <point x="1170.5" y="1591.0" />
+      <point x="981.6944444444445" y="1591.0" />
+      <point x="75.33333333333337" y="72.0" />
+    </edge>
+    <edge source="Main.GameModel.Stationary.PowerUp.PowerUp" target="Main.GameModel.Stationary.Stationary">
+      <point x="1.1368683772161603E-13" y="-72.0" />
+      <point x="906.3611111111112" y="472.0" />
+      <point x="608.4027777777777" y="472.0" />
+      <point x="32.0" y="27.0" />
+    </edge>
+    <edge source="Main.GameModel.Stationary.Wall.BreakableWall" target="Main.GameModel.Stationary.Wall.Wall">
+      <point x="0.0" y="-83.0" />
+      <point x="126.0" y="1591.0" />
+      <point x="215.5" y="1591.0" />
+      <point x="-50.25" y="27.0" />
+    </edge>
+    <edge source="Main.GameModel.UserInfo.HealthBar" target="Main.GameModel.UserInfo.UserInfo">
+      <point x="0.0" y="-27.0" />
+      <point x="1573.5" y="1906.0" />
+      <point x="1489.75" y="1906.0" />
+      <point x="73.75" y="27.0" />
+    </edge>
+    <edge source="Main.GameModel.Stationary.Wall.UnbreakableWall" target="Main.GameModel.Stationary.Wall.Wall">
+      <point x="0.0" y="-60.5" />
+      <point x="405.5" y="1591.0" />
+      <point x="316.0" y="1591.0" />
+      <point x="50.25" y="27.0" />
+    </edge>
+    <edge source="Main.GameModel.UserInfo.TotalLives" target="Main.GameModel.UserInfo.UserInfo">
+      <point x="0.0" y="-27.0" />
+      <point x="1258.5" y="1906.0" />
+      <point x="1342.25" y="1906.0" />
+      <point x="-73.75" y="27.0" />
+    </edge>
+    <edge source="Main.GameModel.NonStationary.NonStationary" target="Main.GameModel.GameObject">
+      <point x="0.0" y="-82.5" />
+      <point x="1324.5" y="257.0" />
+      <point x="891.0277777777777" y="257.0" />
+      <point x="47.0" y="116.0" />
+    </edge>
+    <edge source="Main.GameModel.Stationary.PowerUp.SpeedUp" target="Main.GameModel.Stationary.PowerUp.PowerUp">
+      <point x="-1.1368683772161603E-13" y="-60.5" />
+      <point x="919.4999999999999" y="1591.0" />
+      <point x="906.3611111111111" y="1591.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="Main.GameModel.Stationary.PowerUp.HealthUp" target="Main.GameModel.Stationary.PowerUp.PowerUp">
+      <point x="0.0" y="-60.5" />
+      <point x="673.0" y="1591.0" />
+      <point x="831.0277777777777" y="1591.0" />
+      <point x="-75.33333333333337" y="72.0" />
+    </edge>
+    <edge source="Main.GameModel.Stationary.Stationary" target="Main.GameModel.GameObject">
+      <point x="0.0" y="-27.0" />
+      <point x="576.4027777777777" y="257.0" />
+      <point x="797.0277777777777" y="257.0" />
+      <point x="-47.0" y="116.0" />
+    </edge>
+    <edge source="Main.GameModel.NonStationary.Tank.Tank" target="Main.GameModel.NonStationary.NonStationary">
+      <point x="0.0" y="-534.5" />
+      <point x="1174.361111111111" y="472.0" />
+      <point x="1285.75" y="472.0" />
+      <point x="-38.75" y="82.5" />
+    </edge>
+    <edge source="Main.GameModel.NonStationary.Tank.Bullet" target="Main.GameModel.NonStationary.NonStationary">
+      <point x="0.0" y="-60.5" />
+      <point x="1448.361111111111" y="472.0" />
+      <point x="1363.25" y="472.0" />
+      <point x="38.75" y="82.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.45390383767093073" x="1044.0" y="1123.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
