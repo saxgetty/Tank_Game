@@ -1,4 +1,9 @@
-# csc413-tankgame
+# Battle of the Moos - A Tank Game
+
+Preview this project below on YouTube!
+
+[![demo_vid](https://cdn.discordapp.com/attachments/835591432164212769/978134128790732850/unknown.png)](https://youtu.be/DAxBlhv1lYM)
+
 
 | Student Information |                                |
 |:-------------------:|--------------------------------|
@@ -29,7 +34,7 @@ The jar folder is to be used to store the built jar of your term-project.
 Intellij IDEA
 
 ## Steps to Import project into IDE:
-1. Git clone https://github.com/csc413-su21/csc413-tankgame-saxgetty.git
+1. Git clone https://github.com/saxgetty/Tank_Game.git
 2. Open Intellij (some form of IDE).
 3. Locate 'file'.
 4. Open cloned repo.
